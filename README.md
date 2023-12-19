@@ -13,13 +13,11 @@ as an argument and translates all the VM files in that path into corresponding
 assembly code. The translated code is written to an output file with the same
 name as the input file but with a ".asm" extension.
 
-
 #### Parser.py:
 The Parser class in this file is responsible for handling the parsing of a
 single .vm file. It reads VM commands, parses them, and provides convenient
 access to their components. The file also contains detailed information about
 the VM Language Specification and the types of commands it supports.
-
 
 #### CodeWriter.py
 The CodeWriter class in this file translates VM commands into Hack assembly
