@@ -37,7 +37,7 @@ python Main.py <input path>
 
 Replace <input path> with the path to your VM files directory.
 
-Example:
+Example:  
 Given one vm input file containing the following VM commands:
 
 ```sh
