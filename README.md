@@ -40,11 +40,14 @@ Replace <input path> with the path to your VM files directory.
 Example:
 Given one vm input file containing the following VM commands:
 
+```sh
 push constant 3030
 pop pointer 0
+```
 
 The program will output the following asm file:
 
+```sh
 @256
 D=A
 @SP
@@ -106,3 +109,4 @@ AM = M-1
 D=M 
 @THIS
 M=D
+```
