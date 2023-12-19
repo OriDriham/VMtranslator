@@ -19,7 +19,7 @@ single .vm file. It reads VM commands, parses them, and provides convenient
 access to their components. The file also contains detailed information about
 the VM Language Specification and the types of commands it supports.
 
-3. CodeWriter.py
+CodeWriter.py
 The CodeWriter class in this file translates VM commands into Hack assembly
 code. It includes methods for writing arithmetic, push, pop, label, goto,
 if-goto, function, call, and return commands. Additionally, it contains a
