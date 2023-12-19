@@ -31,7 +31,9 @@ the Hack machine.
 
 To run the program enter:
 
+```sh
 python Main.py <input path>
+```
 
 Replace <input path> with the path to your VM files directory.
 
