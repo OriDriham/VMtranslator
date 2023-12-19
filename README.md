@@ -5,9 +5,8 @@ translation of VM code (Virtual Machine code) into Hack assembly code (asm
 file).
 
 
-===============================
-=      File Descriptions      =
-===============================
+# File Descriptions
+
 Main.py:
 This script serves as the entry point for the VM Translator. It takes a path
 as an argument and translates all the VM files in that path into corresponding
@@ -28,9 +27,8 @@ method to initialize the VM, write_boot, which sets up the initial state of
 the Hack machine.
 
 
-===============================
-=            Usage            =
-===============================
+# Usage
+
 To run the program enter:
 
 python Main.py <input path>
