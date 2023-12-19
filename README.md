@@ -1,6 +1,4 @@
-===============================
-=        VM Translator        =
-===============================
+VM Translator
 This project consists of three Python files designed to facilitate the
 translation of VM code (Virtual Machine code) into Hack assembly code (asm
 file).
